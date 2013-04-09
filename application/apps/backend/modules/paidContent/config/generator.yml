@@ -1,0 +1,49 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           content
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              content
+    plural:                contents
+    route_prefix:          paidContent
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    ~
+      filter:  ~
+      form:
+        class: PaidContentForm
+        fields:
+          i18n:  { label: Content }
+      edit:    ~
+      new:     ~
+
+      list:
+        title: Paid content
+        peer_method: getPaidOfCulture
+        peer_count_method: getPaidCount
+        display: [id, name, version, created_at, updated_at]
+        object_actions:
+          _edit:         ~
+          import: { label: Import, action: import }
+          _delete:       ~
+      filter:
+        display: [created_at, updated_at]
+
+      new:
+        title: Create paid content
+        display: [zip_archieve]
+
+      edit:
+        title: Edit paid content %%name%%
+        display:
+          General: [i18n]
+          Info: [created_at, updated_at]
+          Attachments: [attachments]
+        fields:
+          created_at: { attributes: {disabled: true} }

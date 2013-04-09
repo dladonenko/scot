@@ -1,0 +1,6 @@
+# default values
+all:
+  content:
+    attachments_path: /content/
+  culture:
+    default: uk

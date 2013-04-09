@@ -1,0 +1,5 @@
+#sf_admin_container .sf_admin_form input[type="text"], #sf_admin_container .sf_admin_form textarea, #sf_admin_container .sf_admin_form select
+{
+  width: 300px;
+}
+

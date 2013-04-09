@@ -1,0 +1,22 @@
+Content:
+  Content_1:
+    id: ContentSequence_1
+    name: content 1
+    version: 1
+    is_free: 1
+    text: text 1
+  Content_2:
+    id: ContentSequence_2
+    name: content 2
+    version: 1
+    is_free: 1
+    text: text 2
+  Content_3:
+    id: ContentSequence_3
+    name: content 3
+    version: 1
+    is_free: 0
+    text: text 3
+
+
+

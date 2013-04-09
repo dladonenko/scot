@@ -1,0 +1,75 @@
+Oct 20 10:09:12 symfony [info] {sfPatternRouting} Match route "login" (/v1/login/:culture) for /v1/login with parameters array (  'module' => 'v1',  'action' => 'login',  'culture' => 'uk',)
+Oct 20 10:09:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 20 10:09:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 20 10:09:12 symfony [info] {v1Actions} Change template to "CURRENT/response"
+Oct 20 10:09:12 symfony [info] {v1Actions} Call "v1Actions->executeLogin()"
+Oct 20 10:09:12 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    9.8 MB | mempeak:    9.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Oct 20 10:09:12 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   10.3 MB | mempeak:   10.3 MB | memdelta:      0.0 B | SELECT user.ID, user.LOGIN, user.PASSWORD, user.SESSION_KEY, user.CREATED_AT, user.UPDATED_AT FROM `user` WHERE user.LOGIN IS NULL  LIMIT 1
+Oct 20 10:09:12 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/api/modules/v1/templates/responseSuccess.php"
+Oct 20 10:09:12 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/api/templates/layout.php"
+Oct 20 10:09:12 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/api/templates/layout.php"
+Oct 20 10:09:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 20 10:09:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 20 10:09:12 symfony [info] {sfWebDebugLogger} Configuration 230.19 ms (9)
+Oct 20 10:09:12 symfony [info] {sfWebDebugLogger} Factories 62.83 ms (1)
+Oct 20 10:09:12 symfony [info] {sfWebDebugLogger} Action "v1/login" 11.48 ms (1)
+Oct 20 10:09:12 symfony [info] {sfWebDebugLogger} View "Success" for "v1/login" 16.13 ms (1)
+Oct 20 10:09:12 symfony [info] {sfWebResponse} Send content (21040 o)
+Oct 21 11:54:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /v1/login/ with parameters array (  'module' => 'v1',  'action' => 'login',)
+Oct 21 11:54:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 21 11:54:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 21 11:54:09 symfony [info] {v1Actions} Change template to "CURRENT/response"
+Oct 21 11:54:09 symfony [info] {v1Actions} Call "v1Actions->executeLogin()"
+Oct 21 11:54:09 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    8.0 MB | mempeak:    8.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Oct 21 11:54:09 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    8.3 MB | mempeak:    8.3 MB | memdelta:      0.0 B | SELECT user.ID, user.LOGIN, user.PASSWORD, user.SESSION_KEY, user.CREATED_AT, user.UPDATED_AT FROM `user` WHERE user.LOGIN IS NULL  LIMIT 1
+Oct 21 11:54:09 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/api/modules/v1/templates/responseSuccess.php"
+Oct 21 11:54:09 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/api/templates/layout.php"
+Oct 21 11:54:09 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/api/templates/layout.php"
+Oct 21 11:54:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 21 11:54:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 21 11:54:09 symfony [info] {sfWebDebugLogger} Configuration 22.46 ms (9)
+Oct 21 11:54:09 symfony [info] {sfWebDebugLogger} Factories 25.87 ms (1)
+Oct 21 11:54:09 symfony [info] {sfWebDebugLogger} Action "v1/login" 11.66 ms (1)
+Oct 21 11:54:09 symfony [info] {sfWebDebugLogger} View "Success" for "v1/login" 13.47 ms (1)
+Oct 21 11:54:09 symfony [info] {sfWebResponse} Send content (20976 o)
+Oct 21 11:54:12 symfony [info] {sfPatternRouting} Match route "login" (/v1/login/:culture) for /v1/login with parameters array (  'module' => 'v1',  'action' => 'login',  'culture' => 'uk',)
+Oct 21 11:54:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 21 11:54:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 21 11:54:12 symfony [info] {v1Actions} Change template to "CURRENT/response"
+Oct 21 11:54:12 symfony [info] {v1Actions} Call "v1Actions->executeLogin()"
+Oct 21 11:54:12 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    8.0 MB | mempeak:    8.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Oct 21 11:54:12 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    8.3 MB | mempeak:    8.3 MB | memdelta:      0.0 B | SELECT user.ID, user.LOGIN, user.PASSWORD, user.SESSION_KEY, user.CREATED_AT, user.UPDATED_AT FROM `user` WHERE user.LOGIN IS NULL  LIMIT 1
+Oct 21 11:54:12 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/api/modules/v1/templates/responseSuccess.php"
+Oct 21 11:54:12 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/api/templates/layout.php"
+Oct 21 11:54:12 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/api/templates/layout.php"
+Oct 21 11:54:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 21 11:54:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 21 11:54:12 symfony [info] {sfWebDebugLogger} Configuration 28.31 ms (9)
+Oct 21 11:54:12 symfony [info] {sfWebDebugLogger} Factories 40.90 ms (1)
+Oct 21 11:54:12 symfony [info] {sfWebDebugLogger} Action "v1/login" 12.05 ms (1)
+Oct 21 11:54:12 symfony [info] {sfWebDebugLogger} View "Success" for "v1/login" 14.49 ms (1)
+Oct 21 11:54:12 symfony [info] {sfWebResponse} Send content (21025 o)
+Oct 21 11:54:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /v2/login with parameters array (  'module' => 'v2',  'action' => 'login',)
+Oct 21 11:54:15 symfony [info] {sfFrontWebController} Action "v2/login" does not exist
+Oct 21 11:54:15 symfony [err] {sfError404Exception} Action "v2/login" does not exist.
+Oct 21 11:54:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 21 11:54:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 21 11:54:15 symfony [info] {sfWebDebugLogger} Configuration 11.94 ms (5)
+Oct 21 11:54:15 symfony [info] {sfWebDebugLogger} Factories 26.20 ms (1)
+Oct 21 11:55:59 symfony [info] {sfPatternRouting} Match route "login_v2" (/v2/login/:culture) for /v2/login with parameters array (  'module' => 'v1',  'action' => 'login',  'culture' => 'uk',  'v2_mode' => '1',)
+Oct 21 11:55:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 21 11:55:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 21 11:55:59 symfony [info] {v1Actions} Change template to "CURRENT/response"
+Oct 21 11:55:59 symfony [info] {v1Actions} Call "v1Actions->executeLogin()"
+Oct 21 11:55:59 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    9.8 MB | mempeak:    9.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Oct 21 11:55:59 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   10.3 MB | mempeak:   10.3 MB | memdelta:      0.0 B | SELECT user.ID, user.LOGIN, user.PASSWORD, user.SESSION_KEY, user.CREATED_AT, user.UPDATED_AT FROM `user` WHERE user.LOGIN IS NULL  LIMIT 1
+Oct 21 11:55:59 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/api/modules/v1/templates/responseSuccess.php"
+Oct 21 11:55:59 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/api/templates/layout.php"
+Oct 21 11:55:59 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/api/templates/layout.php"
+Oct 21 11:55:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 21 11:55:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 21 11:55:59 symfony [info] {sfWebDebugLogger} Configuration 260.23 ms (9)
+Oct 21 11:55:59 symfony [info] {sfWebDebugLogger} Factories 102.83 ms (1)
+Oct 21 11:55:59 symfony [info] {sfWebDebugLogger} Action "v1/login" 20.37 ms (1)
+Oct 21 11:55:59 symfony [info] {sfWebDebugLogger} View "Success" for "v1/login" 28.20 ms (1)
+Oct 21 11:55:59 symfony [info] {sfWebResponse} Send content (21129 o)

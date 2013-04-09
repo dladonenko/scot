@@ -1,0 +1,12 @@
+User:
+  User_1:
+    login: test1
+    password: password1
+  User_2:
+    login: test2
+    password: password2
+  User_3:
+    login: test3
+    password: password3
+
+

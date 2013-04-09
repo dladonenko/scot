@@ -1,0 +1,42 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+get_content:
+  url:   /v1/get/:contentid/:culture
+  param: { module: v1, action: get, culture: uk }
+
+login:
+  url:   /v1/login/:culture
+  param: { module: v1, action: login, culture: uk }
+
+get_free:
+  url:   /v1/getFree/:culture
+  param: { module: v1, action: getFree, culture: uk }
+
+get_content_v2:
+  url:   /v2/get/:contentid/:culture
+  param: { module: v1, action: get, culture: uk, v2_mode: 1 }
+
+login_v2:
+  url:   /v2/login/:culture
+  param: { module: v1, action: login, culture: uk, v2_mode: 1 }
+
+get_free_v2:
+  url:   /v2/getFree/:culture
+  param: { module: v1, action: getFree, culture: uk, v2_mode: 1 }
+
+
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

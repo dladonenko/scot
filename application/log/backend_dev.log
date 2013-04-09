@@ -1,0 +1,1393 @@
+Jun 09 11:00:37 symfony [info] {sfPatternRouting} Match route "freeContent" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'index',  'sf_format' => 'html',)
+Jun 09 11:00:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:00:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:00:38 symfony [info] {freeContentActions} Call "freeContentActions->executeIndex()"
+Jun 09 11:00:38 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:00:38 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `content` WHERE content.IS_FREE=1
+Jun 09 11:00:38 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/indexSuccess.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_header.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_th_tabular.php"
+Jun 09 11:00:38 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:00:38 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:00:38 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:00:38 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:00:38 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:00:38 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:00:38 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:00:38 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:00:38 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:00:38 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:00:38 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:   15.5 MB | mempeak:   15.5 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.IS_FREE=1 LIMIT 20
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_batch_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_actions.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_footer.php"
+Jun 09 11:00:38 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:00:38 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:00:38 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 11:00:38 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 11:00:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Configuration 153.69 ms (12)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Factories 31.41 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Action "freeContent/index" 22.41 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/index" 117.99 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.68 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.71 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_header" 0.63 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters" 15.11 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters_field" 10.39 ms (3)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list" 65.35 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_th_tabular" 2.07 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_batch_actions" 9.68 ms (14)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_tabular" 24.92 ms (14)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_actions" 17.72 ms (14)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_batch_actions" 0.92 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_actions" 0.77 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_footer" 0.64 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.92 ms (1)
+Jun 09 11:00:38 symfony [info] {sfWebResponse} Send content (145126 o)
+Jun 09 11:01:13 symfony [info] {sfPatternRouting} Match route "freeContent_new" (/free_content/new.:sf_format) for /free_content/new with parameters array (  'module' => 'freeContent',  'action' => 'new',  'sf_format' => 'html',)
+Jun 09 11:01:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:01:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:01:13 symfony [info] {freeContentActions} Call "freeContentActions->executeNew()"
+Jun 09 11:01:13 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/newSuccess.php"
+Jun 09 11:01:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 11:01:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 11:01:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_header.php"
+Jun 09 11:01:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form.php"
+Jun 09 11:01:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 11:01:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:01:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_actions.php"
+Jun 09 11:01:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_footer.php"
+Jun 09 11:01:13 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:01:13 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:01:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 11:01:13 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 11:01:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} Configuration 27.98 ms (11)
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} Factories 29.99 ms (1)
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} Action "freeContent/new" 24.93 ms (1)
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/new" 33.36 ms (1)
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.68 ms (1)
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.70 ms (1)
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_header" 0.68 ms (1)
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form" 7.92 ms (1)
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_fieldset" 3.40 ms (1)
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_field" 1.82 ms (1)
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_actions" 0.88 ms (1)
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_footer" 0.67 ms (1)
+Jun 09 11:01:13 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.92 ms (1)
+Jun 09 11:01:13 symfony [info] {sfWebResponse} Send content (58343 o)
+Jun 09 11:01:33 symfony [info] {sfPatternRouting} Match route "freeContent_create" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'create',  'sf_format' => 'html',)
+Jun 09 11:01:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:01:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:01:33 symfony [info] {freeContentActions} Call "freeContentActions->executeCreate()"
+Jun 09 11:01:33 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   12.3 MB | mempeak:   12.5 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:01:33 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/vhosts/scotwork.net/cgi-bin/lib/model/Content.php on line 98 (mkdir(): No such file or directory)
+Jun 09 11:01:33 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/vhosts/scotwork.net/cgi-bin/lib/form/ContentForm.class.php on line 64 (ZipArchive::extractTo(): Permission denied)
+Jun 09 11:01:33 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.3 MB | mempeak:   13.3 MB | memdelta:      0.0 B | INSERT INTO content_sequence (`ID`,`TYPE`) VALUES (NULL,0)
+Jun 09 11:01:33 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.3 MB | mempeak:   13.3 MB | memdelta:      0.0 B | INSERT INTO content (`ID`,`VERSION`,`IS_FREE`,`CREATED_AT`,`UPDATED_AT`) VALUES (340,1,1,'2011-06-09 11:01:33','2011-06-09 11:01:33')
+Jun 09 11:01:33 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.5 MB | mempeak:   13.5 MB | memdelta:      0.0 B | SELECT config.ID, config.CODE, config.VALUE FROM `config` WHERE config.CODE='free_general_version' LIMIT 1
+Jun 09 11:01:33 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | UPDATE config SET `VALUE`=43 WHERE config.ID=1
+Jun 09 11:01:33 symfony [info] {sfFrontWebController} Redirect to "http://scotwork.net/backend_dev.php/free_content/340/edit"
+Jun 09 11:01:33 symfony [info] {sfWebResponse} Send status "HTTP/1.0 302 Found"
+Jun 09 11:01:33 symfony [info] {sfWebResponse} Send header "Location: http://scotwork.net/backend_dev.php/free_content/340/edit"
+Jun 09 11:01:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Configuration 24.88 ms (10)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Factories 28.37 ms (1)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Action "freeContent/create" 50.19 ms (1)
+Jun 09 11:01:33 symfony [info] {sfWebResponse} Send content (128 o)
+Jun 09 11:01:33 symfony [info] {sfPatternRouting} Match route "freeContent_edit" (/free_content/:id/edit.:sf_format) for /free_content/340/edit with parameters array (  'module' => 'freeContent',  'action' => 'edit',  'sf_format' => 'html',  'id' => '340',)
+Jun 09 11:01:33 symfony [info] {myUser} Flag old flash messages ("notice")
+Jun 09 11:01:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:01:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:01:33 symfony [info] {freeContentActions} Call "freeContentActions->executeEdit()"
+Jun 09 11:01:33 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   10.3 MB | mempeak:   10.3 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:01:33 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   10.3 MB | mempeak:   10.3 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.ID='340' LIMIT 1
+Jun 09 11:01:33 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:   12.5 MB | mempeak:   12.5 MB | memdelta:      0.0 B | SELECT content_attachment.ID, content_attachment.CONTENT_ID, content_attachment.FILENAME, content_attachment.ORIGINAL_FILENAME, content_attachment.CREATED_AT, content_attachment.UPDATED_AT FROM `content_attachment` WHERE content_attachment.CONTENT_ID=340
+Jun 09 11:01:33 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/editSuccess.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_header.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_actions.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_footer.php"
+Jun 09 11:01:33 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:01:33 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:01:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 11:01:33 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 11:01:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Configuration 32.11 ms (11)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Factories 31.13 ms (1)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Action "freeContent/edit" 34.97 ms (1)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/edit" 48.00 ms (1)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.70 ms (1)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.71 ms (1)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_header" 0.66 ms (1)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form" 23.14 ms (1)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_fieldset" 17.83 ms (3)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_field" 13.57 ms (6)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_actions" 1.32 ms (1)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_footer" 0.63 ms (1)
+Jun 09 11:01:33 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.88 ms (1)
+Jun 09 11:01:33 symfony [info] {sfWebResponse} Send content (93676 o)
+Jun 09 11:01:33 symfony [info] {myUser} Remove old flash messages ("notice")
+Jun 09 11:42:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Jun 09 11:42:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:42:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:42:23 symfony [info] {userActions} Call "userActions->executeIndex()"
+Jun 09 11:42:23 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.5 MB | mempeak:   11.5 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:42:23 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.8 MB | mempeak:   11.8 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `user`
+Jun 09 11:42:23 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/indexSuccess.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_assets.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_flashes.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_header.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_filters.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_filters_field.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_filters_field.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_th_tabular.php"
+Jun 09 11:42:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:23 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.3 MB | mempeak:   13.5 MB | memdelta:      0.0 B | SELECT user.ID, user.LOGIN, user.PASSWORD, user.SESSION_KEY, user.CREATED_AT, user.UPDATED_AT FROM `user` LIMIT 20
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_batch_actions.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_tabular.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_actions.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_batch_actions.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_tabular.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_actions.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_batch_actions.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_tabular.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_actions.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_batch_actions.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_actions.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_footer.php"
+Jun 09 11:42:23 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:42:23 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:42:23 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 11:42:23 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 11:42:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Configuration 27.72 ms (11)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Factories 36.49 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Action "user/index" 27.88 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 62.91 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_assets" 0.71 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_flashes" 0.70 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_list_header" 0.66 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_filters" 10.26 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_filters_field" 6.61 ms (2)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_list" 22.79 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_list_th_tabular" 1.82 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_list_td_batch_actions" 2.10 ms (3)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_list_td_tabular" 9.89 ms (3)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_list_td_actions" 3.82 ms (3)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_list_batch_actions" 0.92 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_list_actions" 0.77 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "user/_list_footer" 0.63 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.90 ms (1)
+Jun 09 11:42:23 symfony [info] {sfWebResponse} Send content (78890 o)
+Jun 09 11:42:27 symfony [info] {sfPatternRouting} Match route "freeContent" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'index',  'sf_format' => 'html',)
+Jun 09 11:42:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:42:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:42:27 symfony [info] {freeContentActions} Call "freeContentActions->executeIndex()"
+Jun 09 11:42:27 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.0 MB | mempeak:   12.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:42:27 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   12.3 MB | mempeak:   12.3 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `content` WHERE content.IS_FREE=1
+Jun 09 11:42:27 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/indexSuccess.php"
+Jun 09 11:42:27 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 11:42:27 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 11:42:27 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_header.php"
+Jun 09 11:42:27 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters.php"
+Jun 09 11:42:27 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:42:27 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:42:27 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:42:27 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list.php"
+Jun 09 11:42:27 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_th_tabular.php"
+Jun 09 11:42:27 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:27 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:27 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:27 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:27 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:27 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:27 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:27 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:27 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:27 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:27 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   14.0 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.IS_FREE=1 LIMIT 20
+Jun 09 11:42:27 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:27 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_batch_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_actions.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_footer.php"
+Jun 09 11:42:28 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:42:28 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:42:28 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 11:42:28 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 11:42:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Configuration 44.70 ms (11)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Factories 47.75 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Action "freeContent/index" 49.84 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/index" 178.24 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 1.05 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 1.08 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_header" 1.01 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters" 24.90 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters_field" 17.72 ms (3)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list" 106.49 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_th_tabular" 3.22 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_batch_actions" 16.19 ms (15)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_tabular" 41.40 ms (15)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_actions" 29.61 ms (15)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_batch_actions" 1.46 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_actions" 1.17 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_footer" 1.00 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 1.40 ms (1)
+Jun 09 11:42:28 symfony [info] {sfWebResponse} Send content (149925 o)
+Jun 09 11:42:32 symfony [info] {sfPatternRouting} Match route "freeContent_delete" (/free_content/:id.:sf_format) for /free_content/340 with parameters array (  'module' => 'freeContent',  'action' => 'delete',  'sf_format' => 'html',  'id' => '340',)
+Jun 09 11:42:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:42:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:42:32 symfony [info] {freeContentActions} Call "freeContentActions->executeDelete()"
+Jun 09 11:42:32 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.0 MB | mempeak:   11.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:42:32 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.0 MB | mempeak:   11.0 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.ID='340' LIMIT 1
+Jun 09 11:42:32 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.0 MB | mempeak:   11.0 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.ID=340
+Jun 09 11:42:32 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.5 MB | mempeak:   11.5 MB | memdelta:      0.0 B | DELETE FROM content_attachment WHERE content_attachment.CONTENT_ID=340
+Jun 09 11:42:32 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.5 MB | mempeak:   11.5 MB | memdelta:      0.0 B | DELETE FROM content WHERE content.ID=340
+Jun 09 11:42:32 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.8 MB | mempeak:   11.8 MB | memdelta:      0.0 B | SELECT config.ID, config.CODE, config.VALUE FROM `config` WHERE config.CODE='free_general_version' LIMIT 1
+Jun 09 11:42:32 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.0 MB | mempeak:   12.0 MB | memdelta:      0.0 B | UPDATE config SET `VALUE`=44 WHERE config.ID=1
+Jun 09 11:42:32 symfony [info] {sfFrontWebController} Redirect to "http://scotwork.net/backend_dev.php/free_content"
+Jun 09 11:42:32 symfony [info] {sfWebResponse} Send status "HTTP/1.0 302 Found"
+Jun 09 11:42:32 symfony [info] {sfWebResponse} Send header "Location: http://scotwork.net/backend_dev.php/free_content"
+Jun 09 11:42:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Configuration 39.23 ms (10)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Factories 47.39 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Action "freeContent/delete" 53.63 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebResponse} Send content (119 o)
+Jun 09 11:42:32 symfony [info] {sfPatternRouting} Match route "freeContent" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'index',  'sf_format' => 'html',)
+Jun 09 11:42:32 symfony [info] {myUser} Flag old flash messages ("notice")
+Jun 09 11:42:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:42:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:42:32 symfony [info] {freeContentActions} Call "freeContentActions->executeIndex()"
+Jun 09 11:42:32 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.0 MB | mempeak:   12.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:42:32 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.3 MB | mempeak:   12.3 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `content` WHERE content.IS_FREE=1
+Jun 09 11:42:32 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/indexSuccess.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_header.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_th_tabular.php"
+Jun 09 11:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:32 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:42:32 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:42:32 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   14.0 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.IS_FREE=1 LIMIT 20
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_batch_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_actions.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_footer.php"
+Jun 09 11:42:32 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:42:32 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:42:32 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 11:42:32 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 11:42:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Configuration 27.55 ms (11)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Factories 30.46 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Action "freeContent/index" 31.12 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/index" 109.32 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.71 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.70 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_header" 0.66 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters" 14.83 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters_field" 10.24 ms (3)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list" 64.96 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_th_tabular" 2.10 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_batch_actions" 9.83 ms (14)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_tabular" 24.70 ms (14)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_actions" 17.73 ms (14)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_batch_actions" 0.93 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_actions" 0.77 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_footer" 0.66 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.91 ms (1)
+Jun 09 11:42:32 symfony [info] {sfWebResponse} Send content (145782 o)
+Jun 09 11:42:32 symfony [info] {myUser} Remove old flash messages ("notice")
+Jun 09 11:42:42 symfony [info] {sfPatternRouting} Match route "freeContent_new" (/free_content/new.:sf_format) for /free_content/new with parameters array (  'module' => 'freeContent',  'action' => 'new',  'sf_format' => 'html',)
+Jun 09 11:42:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:42:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:42:42 symfony [info] {freeContentActions} Call "freeContentActions->executeNew()"
+Jun 09 11:42:42 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/newSuccess.php"
+Jun 09 11:42:42 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 11:42:42 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 11:42:42 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_header.php"
+Jun 09 11:42:42 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form.php"
+Jun 09 11:42:42 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 11:42:42 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:42:43 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_actions.php"
+Jun 09 11:42:43 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_footer.php"
+Jun 09 11:42:43 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:42:43 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:42:43 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 11:42:43 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 11:42:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} Configuration 28.57 ms (11)
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} Factories 30.47 ms (1)
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} Action "freeContent/new" 25.33 ms (1)
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/new" 34.91 ms (1)
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.70 ms (1)
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.72 ms (1)
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_header" 0.72 ms (1)
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form" 8.11 ms (1)
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_fieldset" 3.41 ms (1)
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_field" 1.80 ms (1)
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_actions" 0.92 ms (1)
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_footer" 0.67 ms (1)
+Jun 09 11:42:43 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.92 ms (1)
+Jun 09 11:42:43 symfony [info] {sfWebResponse} Send content (58426 o)
+Jun 09 11:42:51 symfony [info] {sfPatternRouting} Match route "freeContent_create" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'create',  'sf_format' => 'html',)
+Jun 09 11:42:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:42:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:42:51 symfony [info] {freeContentActions} Call "freeContentActions->executeCreate()"
+Jun 09 11:42:51 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   12.3 MB | mempeak:   12.5 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:42:51 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/vhosts/scotwork.net/cgi-bin/lib/model/Content.php on line 98 (mkdir(): No such file or directory)
+Jun 09 11:42:51 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/vhosts/scotwork.net/cgi-bin/lib/form/ContentForm.class.php on line 64 (ZipArchive::extractTo(): Permission denied)
+Jun 09 11:42:51 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:   13.3 MB | mempeak:   13.3 MB | memdelta:      0.0 B | INSERT INTO content_sequence (`ID`,`TYPE`) VALUES (NULL,0)
+Jun 09 11:42:51 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.3 MB | mempeak:   13.3 MB | memdelta:      0.0 B | INSERT INTO content (`ID`,`VERSION`,`IS_FREE`,`CREATED_AT`,`UPDATED_AT`) VALUES (341,1,1,'2011-06-09 11:42:51','2011-06-09 11:42:51')
+Jun 09 11:42:51 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.5 MB | mempeak:   13.5 MB | memdelta:      0.0 B | SELECT config.ID, config.CODE, config.VALUE FROM `config` WHERE config.CODE='free_general_version' LIMIT 1
+Jun 09 11:42:51 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | UPDATE config SET `VALUE`=45 WHERE config.ID=1
+Jun 09 11:42:51 symfony [info] {sfFrontWebController} Redirect to "http://scotwork.net/backend_dev.php/free_content/341/edit"
+Jun 09 11:42:51 symfony [info] {sfWebResponse} Send status "HTTP/1.0 302 Found"
+Jun 09 11:42:51 symfony [info] {sfWebResponse} Send header "Location: http://scotwork.net/backend_dev.php/free_content/341/edit"
+Jun 09 11:42:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Configuration 23.98 ms (10)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Factories 29.87 ms (1)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Action "freeContent/create" 52.23 ms (1)
+Jun 09 11:42:51 symfony [info] {sfWebResponse} Send content (128 o)
+Jun 09 11:42:51 symfony [info] {sfPatternRouting} Match route "freeContent_edit" (/free_content/:id/edit.:sf_format) for /free_content/341/edit with parameters array (  'module' => 'freeContent',  'action' => 'edit',  'sf_format' => 'html',  'id' => '341',)
+Jun 09 11:42:51 symfony [info] {myUser} Flag old flash messages ("notice")
+Jun 09 11:42:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:42:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:42:51 symfony [info] {freeContentActions} Call "freeContentActions->executeEdit()"
+Jun 09 11:42:51 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   10.3 MB | mempeak:   10.3 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:42:51 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   10.3 MB | mempeak:   10.3 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.ID='341' LIMIT 1
+Jun 09 11:42:51 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.5 MB | mempeak:   12.5 MB | memdelta:      0.0 B | SELECT content_attachment.ID, content_attachment.CONTENT_ID, content_attachment.FILENAME, content_attachment.ORIGINAL_FILENAME, content_attachment.CREATED_AT, content_attachment.UPDATED_AT FROM `content_attachment` WHERE content_attachment.CONTENT_ID=341
+Jun 09 11:42:51 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/editSuccess.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_header.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_actions.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_footer.php"
+Jun 09 11:42:51 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:42:51 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:42:51 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 11:42:51 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 11:42:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Configuration 27.88 ms (11)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Factories 29.89 ms (1)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Action "freeContent/edit" 34.22 ms (1)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/edit" 49.00 ms (1)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.69 ms (1)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.72 ms (1)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_header" 0.68 ms (1)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form" 23.58 ms (1)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_fieldset" 18.19 ms (3)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_field" 13.87 ms (6)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_actions" 1.33 ms (1)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_footer" 0.64 ms (1)
+Jun 09 11:42:51 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.89 ms (1)
+Jun 09 11:42:51 symfony [info] {sfWebResponse} Send content (93653 o)
+Jun 09 11:42:51 symfony [info] {myUser} Remove old flash messages ("notice")
+Jun 09 11:43:07 symfony [info] {sfPatternRouting} Match route "freeContent" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'index',  'sf_format' => 'html',)
+Jun 09 11:43:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:43:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:43:07 symfony [info] {freeContentActions} Call "freeContentActions->executeIndex()"
+Jun 09 11:43:07 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.0 MB | mempeak:   12.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:43:07 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   12.3 MB | mempeak:   12.3 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `content` WHERE content.IS_FREE=1
+Jun 09 11:43:07 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/indexSuccess.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_header.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_th_tabular.php"
+Jun 09 11:43:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:43:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:43:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:43:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:43:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:43:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:43:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:43:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:43:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:43:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:43:07 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   14.0 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.IS_FREE=1 LIMIT 20
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_batch_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_actions.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_footer.php"
+Jun 09 11:43:07 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:43:07 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:43:07 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 11:43:07 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 11:43:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Configuration 33.26 ms (11)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Factories 31.22 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Action "freeContent/index" 31.96 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/index" 120.68 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.77 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.80 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_header" 0.69 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters" 16.52 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters_field" 11.39 ms (3)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list" 71.45 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_th_tabular" 2.36 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_batch_actions" 10.89 ms (15)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_tabular" 27.08 ms (15)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_actions" 19.65 ms (15)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_batch_actions" 1.01 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_actions" 0.79 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_footer" 0.66 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.93 ms (1)
+Jun 09 11:43:07 symfony [info] {sfWebResponse} Send content (150126 o)
+Jun 09 11:43:13 symfony [info] {sfPatternRouting} Match route "freeContent_delete" (/free_content/:id.:sf_format) for /free_content/341 with parameters array (  'module' => 'freeContent',  'action' => 'delete',  'sf_format' => 'html',  'id' => '341',)
+Jun 09 11:43:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:43:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:43:13 symfony [info] {freeContentActions} Call "freeContentActions->executeDelete()"
+Jun 09 11:43:13 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.0 MB | mempeak:   11.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:43:13 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   11.0 MB | mempeak:   11.0 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.ID='341' LIMIT 1
+Jun 09 11:43:13 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.0 MB | mempeak:   11.0 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.ID=341
+Jun 09 11:43:13 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.5 MB | mempeak:   11.5 MB | memdelta:      0.0 B | DELETE FROM content_attachment WHERE content_attachment.CONTENT_ID=341
+Jun 09 11:43:13 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.5 MB | mempeak:   11.5 MB | memdelta:      0.0 B | DELETE FROM content WHERE content.ID=341
+Jun 09 11:43:13 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.8 MB | mempeak:   11.8 MB | memdelta:      0.0 B | SELECT config.ID, config.CODE, config.VALUE FROM `config` WHERE config.CODE='free_general_version' LIMIT 1
+Jun 09 11:43:13 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.0 MB | mempeak:   12.0 MB | memdelta:      0.0 B | UPDATE config SET `VALUE`=46 WHERE config.ID=1
+Jun 09 11:43:13 symfony [info] {sfFrontWebController} Redirect to "http://scotwork.net/backend_dev.php/free_content"
+Jun 09 11:43:13 symfony [info] {sfWebResponse} Send status "HTTP/1.0 302 Found"
+Jun 09 11:43:13 symfony [info] {sfWebResponse} Send header "Location: http://scotwork.net/backend_dev.php/free_content"
+Jun 09 11:43:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:43:13 symfony [info] {sfWebDebugLogger} Configuration 24.66 ms (10)
+Jun 09 11:43:13 symfony [info] {sfWebDebugLogger} Factories 28.69 ms (1)
+Jun 09 11:43:13 symfony [info] {sfWebDebugLogger} Action "freeContent/delete" 34.21 ms (1)
+Jun 09 11:43:13 symfony [info] {sfWebResponse} Send content (119 o)
+Jun 09 11:43:13 symfony [info] {sfPatternRouting} Match route "freeContent" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'index',  'sf_format' => 'html',)
+Jun 09 11:43:13 symfony [info] {myUser} Flag old flash messages ("notice")
+Jun 09 11:43:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:43:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:43:13 symfony [info] {freeContentActions} Call "freeContentActions->executeIndex()"
+Jun 09 11:43:13 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   12.0 MB | mempeak:   12.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:43:13 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   12.3 MB | mempeak:   12.3 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `content` WHERE content.IS_FREE=1
+Jun 09 11:43:13 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/indexSuccess.php"
+Jun 09 11:43:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 11:43:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 11:43:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_header.php"
+Jun 09 11:43:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters.php"
+Jun 09 11:43:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:43:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:43:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 11:43:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list.php"
+Jun 09 11:43:13 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_th_tabular.php"
+Jun 09 11:43:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:43:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:43:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:43:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:43:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:43:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:43:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:43:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:43:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 11:43:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 11:43:14 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   14.0 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.IS_FREE=1 LIMIT 20
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_batch_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_actions.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_footer.php"
+Jun 09 11:43:14 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:43:14 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:43:14 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 11:43:14 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 11:43:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Configuration 27.07 ms (11)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Factories 28.32 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Action "freeContent/index" 29.61 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/index" 107.43 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.67 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.72 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_header" 0.65 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters" 14.66 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters_field" 10.13 ms (3)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list" 63.81 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_th_tabular" 2.08 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_batch_actions" 9.67 ms (14)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_tabular" 24.40 ms (14)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_actions" 17.54 ms (14)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_batch_actions" 0.92 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_actions" 0.76 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_footer" 0.64 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.90 ms (1)
+Jun 09 11:43:14 symfony [info] {sfWebResponse} Send content (145822 o)
+Jun 09 11:43:14 symfony [info] {myUser} Remove old flash messages ("notice")
+Jun 09 11:43:24 symfony [info] {sfPatternRouting} Match route "freeContent_new" (/free_content/new.:sf_format) for /free_content/new with parameters array (  'module' => 'freeContent',  'action' => 'new',  'sf_format' => 'html',)
+Jun 09 11:43:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:43:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:43:24 symfony [info] {freeContentActions} Call "freeContentActions->executeNew()"
+Jun 09 11:43:24 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/newSuccess.php"
+Jun 09 11:43:24 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 11:43:24 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 11:43:24 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_header.php"
+Jun 09 11:43:24 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form.php"
+Jun 09 11:43:24 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 11:43:24 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:43:24 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_actions.php"
+Jun 09 11:43:24 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_footer.php"
+Jun 09 11:43:24 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:43:24 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:43:24 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 11:43:24 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 11:43:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} Configuration 31.41 ms (11)
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} Factories 28.75 ms (1)
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} Action "freeContent/new" 24.89 ms (1)
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/new" 37.91 ms (1)
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.81 ms (1)
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.74 ms (1)
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_header" 0.80 ms (1)
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form" 8.27 ms (1)
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_fieldset" 3.41 ms (1)
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_field" 1.82 ms (1)
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_actions" 0.94 ms (1)
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_footer" 0.72 ms (1)
+Jun 09 11:43:24 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.98 ms (1)
+Jun 09 11:43:24 symfony [info] {sfWebResponse} Send content (58426 o)
+Jun 09 11:44:06 symfony [info] {sfPatternRouting} Match route "freeContent_create" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'create',  'sf_format' => 'html',)
+Jun 09 11:44:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:44:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:44:06 symfony [info] {freeContentActions} Call "freeContentActions->executeCreate()"
+Jun 09 11:44:06 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   12.3 MB | mempeak:   12.5 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:44:06 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/vhosts/scotwork.net/cgi-bin/lib/model/Content.php on line 98 (mkdir(): No such file or directory)
+Jun 09 11:44:06 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/vhosts/scotwork.net/cgi-bin/lib/form/ContentForm.class.php on line 64 (ZipArchive::extractTo(): Permission denied)
+Jun 09 11:44:06 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.3 MB | mempeak:   13.3 MB | memdelta:      0.0 B | INSERT INTO content_sequence (`ID`,`TYPE`) VALUES (NULL,0)
+Jun 09 11:44:06 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.3 MB | mempeak:   13.3 MB | memdelta:      0.0 B | INSERT INTO content (`ID`,`VERSION`,`IS_FREE`,`CREATED_AT`,`UPDATED_AT`) VALUES (342,1,1,'2011-06-09 11:44:06','2011-06-09 11:44:06')
+Jun 09 11:44:06 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.5 MB | mempeak:   13.5 MB | memdelta:      0.0 B | SELECT config.ID, config.CODE, config.VALUE FROM `config` WHERE config.CODE='free_general_version' LIMIT 1
+Jun 09 11:44:06 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | UPDATE config SET `VALUE`=47 WHERE config.ID=1
+Jun 09 11:44:06 symfony [info] {sfFrontWebController} Redirect to "http://scotwork.net/backend_dev.php/free_content/342/edit"
+Jun 09 11:44:06 symfony [info] {sfWebResponse} Send status "HTTP/1.0 302 Found"
+Jun 09 11:44:06 symfony [info] {sfWebResponse} Send header "Location: http://scotwork.net/backend_dev.php/free_content/342/edit"
+Jun 09 11:44:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Configuration 26.73 ms (10)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Factories 31.23 ms (1)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Action "freeContent/create" 48.06 ms (1)
+Jun 09 11:44:06 symfony [info] {sfWebResponse} Send content (128 o)
+Jun 09 11:44:06 symfony [info] {sfPatternRouting} Match route "freeContent_edit" (/free_content/:id/edit.:sf_format) for /free_content/342/edit with parameters array (  'module' => 'freeContent',  'action' => 'edit',  'sf_format' => 'html',  'id' => '342',)
+Jun 09 11:44:06 symfony [info] {myUser} Flag old flash messages ("notice")
+Jun 09 11:44:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 11:44:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 11:44:06 symfony [info] {freeContentActions} Call "freeContentActions->executeEdit()"
+Jun 09 11:44:06 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   10.3 MB | mempeak:   10.3 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 11:44:06 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   10.3 MB | mempeak:   10.3 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.ID='342' LIMIT 1
+Jun 09 11:44:06 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.5 MB | mempeak:   12.5 MB | memdelta:      0.0 B | SELECT content_attachment.ID, content_attachment.CONTENT_ID, content_attachment.FILENAME, content_attachment.ORIGINAL_FILENAME, content_attachment.CREATED_AT, content_attachment.UPDATED_AT FROM `content_attachment` WHERE content_attachment.CONTENT_ID=342
+Jun 09 11:44:06 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/editSuccess.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_header.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_actions.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_footer.php"
+Jun 09 11:44:06 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:44:06 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 11:44:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 11:44:06 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 11:44:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Configuration 27.45 ms (11)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Factories 28.15 ms (1)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Action "freeContent/edit" 32.20 ms (1)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/edit" 48.69 ms (1)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.69 ms (1)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.71 ms (1)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_header" 0.74 ms (1)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form" 22.33 ms (1)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_fieldset" 17.02 ms (3)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_field" 12.75 ms (6)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_actions" 1.36 ms (1)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_footer" 0.66 ms (1)
+Jun 09 11:44:06 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 1.37 ms (1)
+Jun 09 11:44:06 symfony [info] {sfWebResponse} Send content (93652 o)
+Jun 09 11:44:06 symfony [info] {myUser} Remove old flash messages ("notice")
+Jun 09 12:43:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'user',  'action' => 'index',)
+Jun 09 12:43:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 12:43:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 12:43:31 symfony [info] {userActions} Call "userActions->executeIndex()"
+Jun 09 12:43:31 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   11.5 MB | mempeak:   11.5 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 12:43:31 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.8 MB | mempeak:   11.8 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `user`
+Jun 09 12:43:31 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/indexSuccess.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_assets.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_flashes.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_header.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_filters.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_filters_field.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_filters_field.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_th_tabular.php"
+Jun 09 12:43:31 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:43:31 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:43:31 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:43:31 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:43:31 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:43:31 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:43:31 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:43:31 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:43:31 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.3 MB | mempeak:   13.5 MB | memdelta:      0.0 B | SELECT user.ID, user.LOGIN, user.PASSWORD, user.SESSION_KEY, user.CREATED_AT, user.UPDATED_AT FROM `user` LIMIT 20
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_batch_actions.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_tabular.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_actions.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_batch_actions.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_tabular.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_actions.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_batch_actions.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_tabular.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_td_actions.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_batch_actions.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_actions.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoUser/templates/_list_footer.php"
+Jun 09 12:43:31 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:43:31 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:43:31 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 12:43:31 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 12:43:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Configuration 27.50 ms (11)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Factories 28.04 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Action "user/index" 25.70 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 63.20 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_assets" 0.69 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_flashes" 0.68 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_list_header" 0.62 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_filters" 10.06 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_filters_field" 6.47 ms (2)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_list" 22.51 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_list_th_tabular" 1.76 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_list_td_batch_actions" 2.04 ms (3)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_list_td_tabular" 9.69 ms (3)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_list_td_actions" 3.80 ms (3)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_list_batch_actions" 0.90 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_list_actions" 0.77 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "user/_list_footer" 0.64 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 1.36 ms (1)
+Jun 09 12:43:31 symfony [info] {sfWebResponse} Send content (78806 o)
+Jun 09 12:43:33 symfony [info] {sfPatternRouting} Match route "freeContent" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'index',  'sf_format' => 'html',)
+Jun 09 12:43:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 12:43:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 12:43:33 symfony [info] {freeContentActions} Call "freeContentActions->executeIndex()"
+Jun 09 12:43:33 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.0 MB | mempeak:   12.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 12:43:33 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.3 MB | mempeak:   12.3 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `content` WHERE content.IS_FREE=1
+Jun 09 12:43:33 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/indexSuccess.php"
+Jun 09 12:43:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 12:43:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 12:43:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_header.php"
+Jun 09 12:43:33 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_th_tabular.php"
+Jun 09 12:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:43:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:43:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:43:34 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   14.0 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.IS_FREE=1 LIMIT 20
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_batch_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_actions.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_footer.php"
+Jun 09 12:43:34 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:43:34 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:43:34 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 12:43:34 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 12:43:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Configuration 32.30 ms (11)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Factories 30.75 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Action "freeContent/index" 30.32 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/index" 121.66 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.73 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.78 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_header" 0.69 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters" 16.04 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters_field" 11.10 ms (3)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list" 74.24 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_th_tabular" 2.17 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_batch_actions" 11.68 ms (15)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_tabular" 27.66 ms (15)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_actions" 20.98 ms (15)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_batch_actions" 0.98 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_actions" 0.80 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_footer" 0.71 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.95 ms (1)
+Jun 09 12:43:34 symfony [info] {sfWebResponse} Send content (149924 o)
+Jun 09 12:43:36 symfony [info] {sfPatternRouting} Match route "freeContent_new" (/free_content/new.:sf_format) for /free_content/new with parameters array (  'module' => 'freeContent',  'action' => 'new',  'sf_format' => 'html',)
+Jun 09 12:43:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 12:43:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 12:43:36 symfony [info] {freeContentActions} Call "freeContentActions->executeNew()"
+Jun 09 12:43:36 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/newSuccess.php"
+Jun 09 12:43:36 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 12:43:36 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 12:43:36 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_header.php"
+Jun 09 12:43:36 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form.php"
+Jun 09 12:43:36 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 12:43:36 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 12:43:36 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_actions.php"
+Jun 09 12:43:36 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_footer.php"
+Jun 09 12:43:36 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:43:36 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:43:36 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 12:43:36 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 12:43:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} Configuration 28.36 ms (11)
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} Factories 28.17 ms (1)
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} Action "freeContent/new" 23.32 ms (1)
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/new" 33.51 ms (1)
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.86 ms (1)
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.72 ms (1)
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_header" 0.68 ms (1)
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form" 7.68 ms (1)
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_fieldset" 3.24 ms (1)
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_field" 1.71 ms (1)
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_actions" 0.87 ms (1)
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_footer" 0.64 ms (1)
+Jun 09 12:43:36 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.91 ms (1)
+Jun 09 12:43:36 symfony [info] {sfWebResponse} Send content (58279 o)
+Jun 09 12:43:53 symfony [info] {sfPatternRouting} Match route "freeContent_create" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'create',  'sf_format' => 'html',)
+Jun 09 12:43:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 12:43:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 12:43:53 symfony [info] {freeContentActions} Call "freeContentActions->executeCreate()"
+Jun 09 12:43:53 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.3 MB | mempeak:   12.5 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 12:43:53 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/vhosts/scotwork.net/cgi-bin/lib/model/Content.php on line 98 (mkdir(): No such file or directory)
+Jun 09 12:43:53 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/vhosts/scotwork.net/cgi-bin/lib/form/ContentForm.class.php on line 64 (ZipArchive::extractTo(): Permission denied)
+Jun 09 12:45:39 symfony [info] {sfPatternRouting} Match route "freeContent_create" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'create',  'sf_format' => 'html',)
+Jun 09 12:45:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 12:45:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 12:45:39 symfony [info] {freeContentActions} Call "freeContentActions->executeCreate()"
+Jun 09 12:45:39 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.3 MB | mempeak:   12.5 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 12:45:39 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/vhosts/scotwork.net/cgi-bin/lib/model/Content.php on line 99 (mkdir(): No such file or directory)
+Jun 09 12:45:39 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/vhosts/scotwork.net/cgi-bin/lib/form/ContentForm.class.php on line 64 (ZipArchive::extractTo(): Permission denied)
+Jun 09 12:53:43 symfony [info] {sfPatternRouting} Match route "freeContent" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'index',  'sf_format' => 'html',)
+Jun 09 12:53:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 12:53:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 12:53:44 symfony [info] {freeContentActions} Call "freeContentActions->executeIndex()"
+Jun 09 12:53:44 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   14.8 MB | mempeak:   14.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 12:53:44 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   14.8 MB | mempeak:   14.8 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `content` WHERE content.IS_FREE=1
+Jun 09 12:53:44 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/indexSuccess.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_header.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_th_tabular.php"
+Jun 09 12:53:44 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:53:44 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:53:44 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:53:44 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:53:44 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:53:44 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:53:44 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:53:44 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:53:44 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:53:44 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:53:44 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   16.5 MB | mempeak:   16.5 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.IS_FREE=1 LIMIT 20
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_batch_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_actions.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_footer.php"
+Jun 09 12:53:44 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:53:44 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:53:44 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 12:53:44 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 12:53:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Configuration 306.33 ms (11)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Factories 73.76 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Action "freeContent/index" 20.53 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/index" 113.17 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.69 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.68 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_header" 0.62 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters" 14.55 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters_field" 10.13 ms (3)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list" 66.92 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_th_tabular" 2.09 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_batch_actions" 10.38 ms (15)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_tabular" 25.65 ms (15)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_actions" 18.90 ms (15)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_batch_actions" 0.94 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_actions" 0.77 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_footer" 0.63 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.91 ms (1)
+Jun 09 12:53:44 symfony [info] {sfWebResponse} Send content (149876 o)
+Jun 09 12:53:48 symfony [info] {sfPatternRouting} Match route "freeContent_delete" (/free_content/:id.:sf_format) for /free_content/342 with parameters array (  'module' => 'freeContent',  'action' => 'delete',  'sf_format' => 'html',  'id' => '342',)
+Jun 09 12:53:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 12:53:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 12:53:48 symfony [info] {freeContentActions} Call "freeContentActions->executeDelete()"
+Jun 09 12:53:48 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.0 MB | mempeak:   11.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 12:53:48 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.0 MB | mempeak:   11.0 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.ID='342' LIMIT 1
+Jun 09 12:53:48 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.0 MB | mempeak:   11.0 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.ID=342
+Jun 09 12:53:48 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.5 MB | mempeak:   11.5 MB | memdelta:      0.0 B | DELETE FROM content_attachment WHERE content_attachment.CONTENT_ID=342
+Jun 09 12:53:48 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.5 MB | mempeak:   11.5 MB | memdelta:      0.0 B | DELETE FROM content WHERE content.ID=342
+Jun 09 12:53:48 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   11.8 MB | mempeak:   11.8 MB | memdelta:      0.0 B | SELECT config.ID, config.CODE, config.VALUE FROM `config` WHERE config.CODE='free_general_version' LIMIT 1
+Jun 09 12:53:48 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.0 MB | mempeak:   12.0 MB | memdelta:      0.0 B | UPDATE config SET `VALUE`=48 WHERE config.ID=1
+Jun 09 12:53:48 symfony [info] {sfFrontWebController} Redirect to "http://scotwork.net/backend_dev.php/free_content"
+Jun 09 12:53:48 symfony [info] {sfWebResponse} Send status "HTTP/1.0 302 Found"
+Jun 09 12:53:48 symfony [info] {sfWebResponse} Send header "Location: http://scotwork.net/backend_dev.php/free_content"
+Jun 09 12:53:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Configuration 24.75 ms (10)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Factories 27.87 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Action "freeContent/delete" 35.05 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebResponse} Send content (119 o)
+Jun 09 12:53:48 symfony [info] {sfPatternRouting} Match route "freeContent" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'index',  'sf_format' => 'html',)
+Jun 09 12:53:48 symfony [info] {myUser} Flag old flash messages ("notice")
+Jun 09 12:53:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 12:53:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 12:53:48 symfony [info] {freeContentActions} Call "freeContentActions->executeIndex()"
+Jun 09 12:53:48 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.0 MB | mempeak:   12.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 12:53:48 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   12.3 MB | mempeak:   12.3 MB | memdelta:      0.0 B | SELECT COUNT(*) FROM `content` WHERE content.IS_FREE=1
+Jun 09 12:53:48 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/indexSuccess.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_header.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_filters_field.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_th_tabular.php"
+Jun 09 12:53:48 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:53:48 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:53:48 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:53:48 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:53:48 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:53:48 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:53:48 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:53:48 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:53:48 symfony [info] {main} Set slot "sf_admin.current_header"
+Jun 09 12:53:48 symfony [info] {main} Get slot "sf_admin.current_header"
+Jun 09 12:53:48 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   14.0 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.IS_FREE=1 LIMIT 20
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_tabular.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_td_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_batch_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_actions.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_list_footer.php"
+Jun 09 12:53:48 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:53:48 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:53:48 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 12:53:48 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 12:53:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Configuration 28.35 ms (11)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Factories 28.33 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Action "freeContent/index" 29.26 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/index" 109.66 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.69 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.69 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_header" 0.65 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters" 15.11 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_filters_field" 10.31 ms (3)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list" 64.64 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_th_tabular" 2.12 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_batch_actions" 10.02 ms (14)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_tabular" 24.22 ms (14)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_td_actions" 17.97 ms (14)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_batch_actions" 0.92 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_actions" 0.77 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "freeContent/_list_footer" 0.65 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.93 ms (1)
+Jun 09 12:53:48 symfony [info] {sfWebResponse} Send content (145766 o)
+Jun 09 12:53:48 symfony [info] {myUser} Remove old flash messages ("notice")
+Jun 09 12:53:57 symfony [info] {sfPatternRouting} Match route "freeContent_new" (/free_content/new.:sf_format) for /free_content/new with parameters array (  'module' => 'freeContent',  'action' => 'new',  'sf_format' => 'html',)
+Jun 09 12:53:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 12:53:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 12:53:57 symfony [info] {freeContentActions} Call "freeContentActions->executeNew()"
+Jun 09 12:53:57 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/newSuccess.php"
+Jun 09 12:53:57 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 12:53:57 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 12:53:57 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_header.php"
+Jun 09 12:53:57 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form.php"
+Jun 09 12:53:57 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 12:53:57 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 12:53:57 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_actions.php"
+Jun 09 12:53:57 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_footer.php"
+Jun 09 12:53:57 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:53:57 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:53:57 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 12:53:57 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 12:53:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} Configuration 28.24 ms (11)
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} Factories 29.14 ms (1)
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} Action "freeContent/new" 23.89 ms (1)
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/new" 34.23 ms (1)
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.73 ms (1)
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.70 ms (1)
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_header" 0.68 ms (1)
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form" 8.45 ms (1)
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_fieldset" 3.34 ms (1)
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_field" 1.80 ms (1)
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_actions" 0.88 ms (1)
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_footer" 0.65 ms (1)
+Jun 09 12:53:57 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.94 ms (1)
+Jun 09 12:53:57 symfony [info] {sfWebResponse} Send content (58411 o)
+Jun 09 12:54:02 symfony [info] {sfPatternRouting} Match route "freeContent_create" (/free_content.:sf_format) for /free_content with parameters array (  'module' => 'freeContent',  'action' => 'create',  'sf_format' => 'html',)
+Jun 09 12:54:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 12:54:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 12:54:02 symfony [info] {freeContentActions} Call "freeContentActions->executeCreate()"
+Jun 09 12:54:02 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.3 MB | mempeak:   12.5 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 12:54:02 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | INSERT INTO content_sequence (`ID`,`TYPE`) VALUES (NULL,0)
+Jun 09 12:54:02 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | INSERT INTO content (`ID`,`NAME`,`VERSION`,`IS_FREE`,`TEXT`,`CREATED_AT`,`UPDATED_AT`) VALUES (343,'The negotiators dilemma',1,1,[LOB value],'2011-06-09 12:54:02','2011-06-09 12:54:02')
+Jun 09 12:54:02 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | INSERT INTO content_sequence (`ID`,`TYPE`) VALUES (NULL,1)
+Jun 09 12:54:02 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | INSERT INTO content_attachment (`ID`,`CONTENT_ID`,`FILENAME`,`ORIGINAL_FILENAME`,`CREATED_AT`,`UPDATED_AT`) VALUES (344,343,'344_themedata.thmx','themedata.thmx','2011-06-09 12:54:02','2011-06-09 12:54:02')
+Jun 09 12:54:02 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | INSERT INTO content_sequence (`ID`,`TYPE`) VALUES (NULL,1)
+Jun 09 12:54:02 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | INSERT INTO content_attachment (`ID`,`CONTENT_ID`,`FILENAME`,`ORIGINAL_FILENAME`,`CREATED_AT`,`UPDATED_AT`) VALUES (345,343,'345_filelist.xml','filelist.xml','2011-06-09 12:54:02','2011-06-09 12:54:02')
+Jun 09 12:54:02 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | INSERT INTO content_sequence (`ID`,`TYPE`) VALUES (NULL,1)
+Jun 09 12:54:02 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   13.8 MB | mempeak:   13.8 MB | memdelta:      0.0 B | INSERT INTO content_attachment (`ID`,`CONTENT_ID`,`FILENAME`,`ORIGINAL_FILENAME`,`CREATED_AT`,`UPDATED_AT`) VALUES (346,343,'346_colorschememapping.xml','colorschememapping.xml','2011-06-09 12:54:02','2011-06-09 12:54:02')
+Jun 09 12:54:02 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   14.0 MB | mempeak:   14.0 MB | memdelta:      0.0 B | SELECT config.ID, config.CODE, config.VALUE FROM `config` WHERE config.CODE='free_general_version' LIMIT 1
+Jun 09 12:54:02 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   14.3 MB | mempeak:   14.3 MB | memdelta:      0.0 B | UPDATE config SET `VALUE`=49 WHERE config.ID=1
+Jun 09 12:54:02 symfony [info] {sfFrontWebController} Redirect to "http://scotwork.net/backend_dev.php/free_content/343/edit"
+Jun 09 12:54:02 symfony [info] {sfWebResponse} Send status "HTTP/1.0 302 Found"
+Jun 09 12:54:02 symfony [info] {sfWebResponse} Send header "Location: http://scotwork.net/backend_dev.php/free_content/343/edit"
+Jun 09 12:54:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 12:54:02 symfony [info] {sfWebDebugLogger} Configuration 24.23 ms (10)
+Jun 09 12:54:02 symfony [info] {sfWebDebugLogger} Factories 27.41 ms (1)
+Jun 09 12:54:02 symfony [info] {sfWebDebugLogger} Action "freeContent/create" 85.91 ms (1)
+Jun 09 12:54:02 symfony [info] {sfWebResponse} Send content (128 o)
+Jun 09 12:54:05 symfony [info] {sfPatternRouting} Match route "freeContent_edit" (/free_content/:id/edit.:sf_format) for /free_content/343/edit with parameters array (  'module' => 'freeContent',  'action' => 'edit',  'sf_format' => 'html',  'id' => '343',)
+Jun 09 12:54:05 symfony [info] {myUser} Flag old flash messages ("notice")
+Jun 09 12:54:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 09 12:54:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 09 12:54:05 symfony [info] {freeContentActions} Call "freeContentActions->executeEdit()"
+Jun 09 12:54:05 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   10.3 MB | mempeak:   10.3 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 09 12:54:05 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   10.3 MB | mempeak:   10.3 MB | memdelta:      0.0 B | SELECT content.ID, content.NAME, content.VERSION, content.IS_FREE, content.TEXT, content.CREATED_AT, content.UPDATED_AT FROM `content` WHERE content.ID='343' LIMIT 1
+Jun 09 12:54:05 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:   12.5 MB | mempeak:   12.5 MB | memdelta:      0.0 B | SELECT content_attachment.ID, content_attachment.CONTENT_ID, content_attachment.FILENAME, content_attachment.ORIGINAL_FILENAME, content_attachment.CREATED_AT, content_attachment.UPDATED_AT FROM `content_attachment` WHERE content_attachment.CONTENT_ID=343
+Jun 09 12:54:05 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/editSuccess.php"
+Jun 09 12:54:05 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_assets.php"
+Jun 09 12:54:05 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_flashes.php"
+Jun 09 12:54:05 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_header.php"
+Jun 09 12:54:05 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form.php"
+Jun 09 12:54:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 12:54:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 12:54:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 12:54:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 12:54:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 12:54:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 12:54:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 12:54:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_fieldset.php"
+Jun 09 12:54:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_field.php"
+Jun 09 12:54:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_actions.php"
+Jun 09 12:54:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/cache/backend/dev/modules/autoFreeContent/templates/_form_footer.php"
+Jun 09 12:54:06 symfony [info] {sfPHPView} Decorate content with "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:54:06 symfony [info] {sfPHPView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/templates/layout.php"
+Jun 09 12:54:06 symfony [info] {sfPartialView} Render "/var/www/vhosts/scotwork.net/cgi-bin/apps/backend/modules/common/templates/_menu.php"
+Jun 09 12:54:06 symfony [info] {sfWebResponse} Send status "HTTP/1.0 200 OK"
+Jun 09 12:54:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} Configuration 28.22 ms (11)
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} Factories 29.15 ms (1)
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} Action "freeContent/edit" 35.25 ms (1)
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} View "Success" for "freeContent/edit" 49.20 ms (1)
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_assets" 0.66 ms (1)
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_flashes" 0.73 ms (1)
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_header" 0.66 ms (1)
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form" 24.07 ms (1)
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_fieldset" 18.44 ms (3)
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_field" 14.09 ms (6)
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_actions" 1.49 ms (1)
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} Partial "freeContent/_form_footer" 0.65 ms (1)
+Jun 09 12:54:06 symfony [info] {sfWebDebugLogger} Partial "common/_menu" 0.90 ms (1)
+Jun 09 12:54:06 symfony [info] {sfWebResponse} Send content (122814 o)
+Jun 09 12:54:06 symfony [info] {myUser} Remove old flash messages ("notice")

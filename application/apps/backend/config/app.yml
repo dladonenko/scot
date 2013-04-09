@@ -1,0 +1,37 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  upload:
+    dir_name: /uploads
+
+  content:
+    attachments_path: /content/
+    attachments_max_size: 5000000
+
+    import_path: /content_to_import/
+    import_text_encoding: UTF-8
+    import_max_size: 50000000
+
+  culture:
+    default: en
+    list:
+      - ro
+      - da
+      - sv
+      - nb
+      - fr
+      - nl
+      - pl
+      - el
+      - pt
+      - ru
+      - es
+      - de
+      - en
+      - en_US
+      - hu
+
+
+

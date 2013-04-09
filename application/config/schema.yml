@@ -1,0 +1,128 @@
+---
+propel:
+  _attributes:
+    package: lib.model
+  content_sequence:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+    type:
+      type: TINYINT
+      size: 1
+      required: true
+  content:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      foreignTable: content_sequence
+      foreignReference: id
+      onDelete: CASCADE
+      onUpdate: CASCADE
+    is_free:
+      type: BOOLEAN
+      required: true
+      default: false
+    created_at:
+      type: TIMESTAMP
+      required: true
+    updated_at:
+      type: TIMESTAMP
+      required: true
+    _indexes:
+      id:
+        - id
+  content_i18n:
+    name:
+      type: VARCHAR
+      size: 255
+      required: true
+    version:
+      type: INTEGER
+      required: true
+      default: 1
+    text:
+      type: CLOB
+      required: true
+  content_attachment:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      foreignTable: content_sequence
+      foreignReference: id
+      onDelete: CASCADE
+      onUpdate: CASCADE
+    content_id:
+      type: INTEGER
+      required: true
+      foreignTable: content
+      foreignReference: id
+      onDelete: CASCADE
+      onUpdate: CASCADE
+    created_at:
+      type: TIMESTAMP
+      required: true
+    updated_at:
+      type: TIMESTAMP
+      required: true
+    _indexes:
+      id:
+        - id
+      content_id:
+        - content_id
+  content_attachment_i18n:
+    filename:
+      type: VARCHAR
+      size: 255
+      required: true
+    original_filename:
+      type: VARCHAR
+      size: 255
+      required: true
+  user:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+    login:
+      type: VARCHAR
+      size: 50
+      required: true
+    password:
+      type: VARCHAR
+      size: 50
+      required: true
+    session_key:
+      type: CHAR
+      size: 32
+    created_at:
+      type: TIMESTAMP
+      required: true
+    updated_at:
+      type: TIMESTAMP
+      required: true
+    _indexes:
+      id:
+        - id
+      login:
+        - login
+      session_key:
+        - session_key
+  config:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+    code:
+      type: VARCHAR
+      size: 50
+      required: true
+    value:
+      type: INTEGER
+      size: 11
+      required: true

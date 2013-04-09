@@ -1,0 +1,41 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           user
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              user
+    plural:                users
+    route_prefix:          user
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    ~
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~
+
+      list:
+        title: Users
+        display: [id, login, password, created_at]
+      filter:
+        display: [login, created_at]
+
+      new:
+        title: Create user
+        display:
+          General: [login, password]
+
+      edit:
+        title: Edit user %%login%%
+        display:
+          General: [login, password]
+          Info:    [created_at, updated_at]
+        fields:
+          created_at: { attributes: {disabled: true} }
+
